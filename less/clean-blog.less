@@ -54,6 +54,8 @@ hr.small {
 	margin: 15px auto;
 	border-width: 4px;
 	border-color: white;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.6);
+  box-shadow: 0px 0px 1px rgba(255,255,255,0.4);
 }
 
 // Navigation
@@ -73,9 +75,10 @@ hr.small {
 		li {
 			a {
 				text-transform: uppercase;
-				font-size: 12px;
+				font-size: 14px;
 				font-weight: 800;
 				letter-spacing: 1px;
+        text-shadow: 0px 0px 2px rgba(0,0,0,0.5), 0px 0px 3px rgba(255,255,255,0.5);
 			}
 		}
 	}
@@ -162,7 +165,7 @@ hr.small {
 	background-attachment: scroll;
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
-	margin-bottom: 50px;
+	// margin-bottom: 50px;
 	.site-heading,
 	.post-heading,
 	.page-heading {
@@ -178,6 +181,8 @@ hr.small {
 		h1 {
 			margin-top: 0;
 			font-size: 50px;
+      text-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+      text-shadow: 0px 0px 1px rgba(255,255,255,0.7);
 		}
 		.subheading {
 			font-size: 24px;
@@ -186,6 +191,8 @@ hr.small {
 			.sans-serif;
 			font-weight: 300;
 			margin: 10px 0 0;
+      text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+      text-shadow: 0px 0px 1px rgba(255,255,255,0.3);
 		}
 		@media only screen and (min-width: 768px) {
 			h1 {
@@ -227,6 +234,15 @@ hr.small {
 		}
 	}
 }
+
+// Textured background
+
+#content {
+  background-repeat: repeat;
+  background-image: url("../img/noise.png");
+ // background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Textured-Tasty-Grey-Seamless-Pattern-For-Website-Background.jpg");
+}
+
 
 // Post Preview Pages
 
